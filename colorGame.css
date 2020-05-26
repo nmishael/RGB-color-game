@@ -1,0 +1,83 @@
+body{
+  background: #232323;
+  margin: 0;
+  font-family: 'Montserrat', 'Avenir';}
+
+h1{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+#color{
+  font-size: 150%;
+}
+.square {
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  padding-bottom: 30%;
+  border-radius: 20%;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+}
+
+#container {
+  margin: 25px auto;
+  max-width: 600px;  
+}
+
+#header {
+  display: flex;
+  background-color: purple;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#buttons {
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto minmax(100px, 15%) auto auto;
+  justify-content: center;
+}
+
+ button {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: purple;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+  button:hover {
+    background-color: purple;  
+    color: white; 
+    border: none; 
+  }
+
+  #message {
+    text-align: center;
+    margin: auto 0;
+    color: purple;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+
+  .black{
+   background-color:rgb(0, 0, 0); 
+  }
+
+  .game-mode{
+    background-color: purple;
+    color: white;
+    border: none;
+  }
